@@ -1,0 +1,6 @@
+framework module EditableTextInsetsTextField {
+  umbrella header "EditableTextInsetsTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

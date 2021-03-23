@@ -1,0 +1,362 @@
+/*
+ Localizable.strings
+ TahaniFlowers
+ 
+ Created by Mandip Kanjiya on 13/12/18.
+ Copyright © 2018 Mandip Kanjiya. All rights reserved.
+ */
+
+required = "Required";
+arabic = "Arabic";
+
+// Menu
+
+menu_home = "Home";
+menu_category = "Category";
+menu_about_us = "About Us";
+menu_contact_us = "Contact Us";
+menu_my_account = "My Account";
+menu_my_orders = "My Orders";
+menu_my_address = "My Address";
+menu_reset_password = "Reset Password";
+menu_login = "Login";
+menu_logout = "Logout";
+menu_do_you_want_to_logout = "Do you want to logout?";
+menu_yes = "Yes";
+menu_no = "No";
+menu_logout_successfully = "Logout Successfully";
+menu_account = "Account";
+// Login Screen
+
+placeholder_login_username = "User Name";
+placeholder_login_password = "Password";
+
+login_title = "Login";
+login_forgot_password = "Forgot Password?";
+login = "LOGIN";
+login_do_not_have_account = "Do not have Account? Signup";
+login_with_facebook = "Connect with Facebook";
+login_with_google = "Connect with Google";
+
+login_username_required = "Username required!";
+login_password_required = "Password required!";
+login_valid_email = "Email not valid!";
+
+login_login_successfully = "Login Successfully";
+
+// Sign up
+
+placeholder_signup_username = "First Name";
+placeholder_signup_lastname = "Last Name";
+placeholder_signup_password = "Password";
+placeholder_signup_confirmpassword = "Confrim Password";
+placeholder_signup_emailid = "Email Id";
+placeholder_signup_contact_number = "Contact Number";
+
+signup_title = "Signup";
+signup = "SIGNUP";
+signup_already_have_account = "Already have an Account? Login";
+signup_with_facebook = "Connect with Facebook";
+signup_with_google = "Connect with Google";
+
+signup_username_required = "Firstname required!";
+signup_lastname_required = "Lastname required!";
+signup_password_required = "Password required!";
+signup_confirm_password_required = "Confirm Password required!";
+signup_password_and_confrimpassword_not_matched = "Password and confirm password not matched!";
+signup_email_required = "Email required!";
+signup_contact_required = "Contact required!";
+signup_valid_email = "Email not valid!";
+signup_password_min_length = "Password should be minimum 6 charactor";
+signup_password_max_length = "Password should be maximum 8 charactor";
+signup_max_two_zero_characters_allowed = "Allowed Max 20 Character Only";
+signup_max_one_zero_characters_allowed = "Allowed Max 10 Character Only";
+signup_enter_valid_mobile_number_allowed = "Enter valid mobile number";
+signup_max_one_zero_zero_characters_allowed = "Allowed Max 100 Character Only";
+register_successfully = "Register Successfully";
+signup_only_digits_allowed = "Only digits allowed";
+
+// Forgot Password
+
+
+placeholder_forgot_password_emailid = "Enter Email Id";
+
+forgot_password_title = "Forgot Password";
+forgot_password_send_instructions = "SEND INSTRUCTIONS";
+
+forgot_password_email_required = "Email Id required!";
+forgot_password_valid_email = "Email not valid!";
+
+// Reset Password
+
+placehoder_reset_password_current_password = "Current Password";
+placehoder_reset_password_new_password = "New Password";
+
+reset_password_title = "Reset Password";
+reset_password_btn_name = "RESET PASSWORD";
+
+reset_password_current_password_required = "Current password required!";
+reset_password_new_password_required = "New password required!";
+
+// Home
+
+lbl_home_title = "Khaam";
+home_view_more = "View More";
+home_shop_by_category = "SHOP BY CATEGORY";
+home_featured_products = "FEATURED PRODUCTS";
+home_search_flowers = "  Search";
+home_no_data_found = "Sorry..!! Not Found anything";
+home_back_to_shop = "Back To Shop";
+// Tabbar
+
+tab_home = "HOME";
+tab_offers = "OFFERS";
+tab_profile = "PROFILE";
+tab_cart = "CART";
+
+// Product Details
+
+product_details_related_products = "RELATED PRODUCTS";
+product_details_review = "Review";
+product_details_was_added_to_your_shopping_cart = "was added to your shoppig cart.";
+product_details_added_to_cart = "Added To Cart";
+product_details_ok = "OK";
+product_details_add_to_cart = " ADD TO CART";
+product_details_rate_this_product = "Rate This Product";
+
+// Orders
+
+orders_title = "Orders";
+orders_delivered = "Delivered";
+orders_canceled = "Canceled";
+orders_order_again = "ORDER AGAIN";
+orders_order_Cancel = "CANCEL ORDER";
+orders_order_id = "ORDER NO :";
+orders_order_price = "Price :";
+orders_placed_on = "Placed on";
+
+// Address
+
+address_title = "Address";
+address_edit = "EDIT";
+address_add_address = "Add Address";
+address_no_address_found = "No address found";
+new_address_placeholder_select_governorate = "Select Governorate";
+specialInstruction_placeholder = "For Ex. don’t ring bell, or please come back door";
+// Write Review
+
+write_review_title = "Rating & Review";
+write_review_add_rating = "Add Rating";
+write_review_write_review = "Write Review";
+write_review_submit = "SUBMIT";
+
+// Cart
+
+cart_title = "Cart";
+cart_sub_total = "Sub Total";
+cart_discount = "Discount";
+cart_delivery = "Delivery";
+cart_total = "Total";
+cart_checkout = "CHECKOUT";
+cart_choose_method = "CHOOSE A METHOD";
+cart_login = "LOGIN";
+cart_checkout_as_guest = "CHECKOUT AS GUEST";
+cart_register_and_checkout = "REGISTER AND CHECKOUT";
+cart_updated_successfully = "Cart updated successfully";
+cart_quantity = "Quantity";
+cart_delete_message = "Do you want to delete from cart?";
+cart_your_cart_is_empty = "Your cart is empty";
+
+// Checkout
+
+checkout_name_required = "Name required";
+checkout_mobile_no_required = "Mobile no required";
+checkout_alertnate_no_required = "Alertnet number required";
+checkout_select_area_required = "Select Area required";
+checkout_block_required = "Block required";
+checkout_street_required = "Street required";
+checkout_avenue_required = "Avenue required";
+checkout_house_required = "House required";
+checkout_floor_required = "Floor required";
+checkout_bulding_no_required = "Bulding no. required";
+checkout_no_delivery_time_available = "No delivery time available";
+checkout_please_select_delivery_date_to_view_delivery_timeslots = "Please select delivery date to view delivery timeslots";
+
+checkout_placeholder_name = "Name";
+checkout_placeholder_mobile_no = "Mobile No.";
+checkout_placeholder_alertnate_no = "Alternate Mobile no.";
+checkout_placeholder_select_area = "Select area";
+checkout_placeholder_block = "Block";
+checkout_placeholder_street = "Street";
+checkout_placeholder_avenue = "Avenue";
+checkout_placeholder_house = "house";
+checkout_placeholder_floor = "Floor";
+checkout_placeholder_bulding_no = "Building No";
+checkout_save_address_for_future_use = "Save Address For Future Use.";
+checkout_next = "NEXT";
+checkout_delivery_options = "Delivery Options";
+checkout_submit = "Submit";
+checkout_delivery_date = "Delivery Date";
+checkout_delivery_time = "Delivery Time";
+checkout_choose_delivery_options = "Choose Delivery Options";
+checkout_choose_another_option = "Choose another Option";
+
+// Profile
+
+profile_title = "Profile";
+profile_email = "Email:";
+profile_bio = "Bio:";
+profile_contact = "Contact:";
+
+// Edit Profile
+
+edit_profile_title = "Edit Profile";
+edit_profile_change_image = "Change Image";
+edit_profile_user_name = "User Name";
+edit_profile_email_id = "Email Id";
+edit_profile_contact = "Contact";
+edit_profile_about = "Bio";
+edit_profile_save = "Update";
+edit_profile_first_name_placeholder = "First Name";
+edit_profile_last_name_placeholder = "Last Name";
+edit_profile_email_id_placeholder = "Email Id";
+edit_profile_contact_placeholder = "Contact";
+edit_profile_save_placeholder = "SAVE";
+
+// Contact Us
+
+contact_us = "Contact Us";
+get_in_touch = "Get In Touch";
+send_us_message = "Send Us Message";
+contact_us_name_required = "Name required";
+contact_us_emailid_required = "Email id required";
+contact_us_number_required = "Number required";
+contact_us_message_required = "Message required";
+contact_us_for_support_and_order_inquires = "Support & Inquiry";
+contact_us_for_complains = "Complains";
+contact_us_for_order_tracking_and_delivery = "Tracking & Delivery";
+contact_us_for_whatsApp = "WhatsApp";
+contact_us_name_placeholder = "Name";
+contact_us_email_address_placeholder = "Email Address";
+contact_us_contact_number_placeholder = "Contact Number";
+contact_us_message_placeholder = "Message";
+contact_us_send = "SEND";
+contact_us_conatct_number = "Contact Number";
+contact_us_location = "Location";
+
+// About Us
+
+about_us = "About Us";
+
+// Select Language
+
+select_language_title = "Select Langauge";
+select_language_choose_language = "Choose Language";
+select_language_apply = "Apply";
+
+// New Address
+
+new_address_title = "New Address";
+edit_address_title = "Edit Address";
+
+new_address_name_required = "Name required";
+new_address_mobile_no_required = "Mobile no required";
+new_address_alertnate_no_required = "Alertnet number required";
+new_address_select_area_required = "Select Area required";
+new_address_block_required = "Block required";
+new_address_street_required = "Street required";
+new_address_avenue_required = "Avenue required";
+new_address_house_required = "House required";
+new_address_floor_required = "Floor required";
+new_address_bulding_no_required = "Bulding no. required";
+new_address_address_required = "Address required";
+
+
+new_address_placeholder_name = "Name";
+new_address_placeholder_mobile_no = "Mobile No.";
+new_address_placeholder_alertnate_no = "Alternate Mobile no.";
+new_address_placeholder_select_area = "Select area";
+new_address_placeholder_block = "Block";
+new_address_placeholder_street = "Street";
+new_address_placeholder_avenue = "Avenue";
+new_address_placeholder_house = "house";
+new_address_placeholder_floor = "Floor";
+new_address_placeholder_bulding_no = "Building No";
+new_address_placeholder_address = "Address";
+
+new_address_save_address_for_future_use = "Save Address For Future Use.";
+new_address_next = "SAVE";
+
+// Step 1
+
+step_one_title = "Step 1";
+step_one_shipping_address = "Shipping Address";
+step_one_saved_address = "Saved Address";
+step_one_add_address = "+ Add Address";
+step_one_billing_address = "Billing Address";
+step_one_next = "NEXT";
+step_one_select_address = "Please select address";
+
+checkout_title = "Place Order";
+checkout_coupon_code_required = "Coupon code required";
+checkout_coupon_code_placeholder = "Coupon code";
+checkout_coupon_code_apply = "APPLY";
+checkout_coupon_code_pay = "PAY";
+checkout_coupon_code_cancel = "CANCEL";
+checkout_quantity = "Quantity";
+checkout_price = "Price";
+checkout_subtotal = "Subtotal";
+checkout_address = "Address";
+checkout_payment_method = "Payment Method";
+checkout_order_id = "Order Id";
+checkout_sub_total = "Subtotal";
+checkout_discount = "Discount";
+checkout_delivery = "Delivery";
+checkout_total = "Total";
+
+// Step 2
+
+step_two_title = "Step 2";
+step_two_date_and_time = "Date & Time";
+step_two_next = "NEXT";
+step_two_select_date = "Select Date";
+step_two_select_time = "Select Time";
+step_two_make_online_payment = "Make Online Payment";
+step_two_make_cash_on_delivey = "Cash on delivery";
+step_two_select_payment_method = "Select Payment Method";
+step_one_no_address_found = "No address found";
+step_two_pay = "Pay";
+step_two_confirm_order = "Confirm Order";
+
+// Placed Order
+
+placed_order_title = "Payment";
+placed_order_congratulations = "Congratulations!";
+placed_order_order_message = "Your order has been placed";
+placed_order_go_back = "Continue Shopping";
+placed_order_your_order_has_been_received = "YOUR ORDER HAS BEEN RECEIVED";
+placed_order_thank_you_for_your_purchase = "Thank you for your purchase!";
+placed_order_your_order_is = "Your order # is:";
+placed_order_instructions = "You will receive an order confirmation email with details of your order and a link to track its progress.";
+
+// Paymnet
+
+payment_title = "Payment";
+
+card_payment_failed_title = "Payment Failed !";
+card_payment_your_payment_couldnt_be_precessed = "Your Payment couldn't be processed.";
+card_payment_continue_shopping = "Try Again";
+
+checkout_please_select_delivery_options = "Please choose delivery options";
+//Added By Punit
+
+btn_title_Shop = "Shop";
+btn_title_ViewCart = "View Cart";
+Validation_MsgPasswordNotMatch = "Password Not Match";
+EnterValidEmail = "Enter Valid Email Address";
+PleaseSelectDelDate = "Please Select Delivery Date";
+PleaseSelectDelTime = "Please Select Delivery Time";
+
+//Oder
+
+are_sure_Cancel_Oder = "Are you sure you want to cancel this order?";

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueMedium.ttf">
+            <string>HelveticaNeueMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BarcodeScanner_VC" customModule="ViteHR" customModuleProvider="target">
+            <connections>
+                <outlet property="lblScanCode" destination="7rF-II-3Ls" id="bVI-zw-MCN"/>
+                <outlet property="scannerView" destination="OVI-WX-sq4" id="dqi-3r-Pf8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVI-WX-sq4" customClass="RMScannerView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="523"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="b0b-sf-dQp"/>
+                    </connections>
+                </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place a barcode inside the viewfinder rectangle to scan it." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rF-II-3Ls">
+                    <rect key="frame" x="0.0" y="531" width="320" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="hWp-Fm-xc8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeueMedium" family="HelveticaNeue" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7rF-II-3Ls" secondAttribute="trailing" id="FGX-sO-Uxx"/>
+                <constraint firstItem="7rF-II-3Ls" firstAttribute="top" secondItem="OVI-WX-sq4" secondAttribute="bottom" constant="8" id="Tja-9l-Dsh"/>
+                <constraint firstItem="OVI-WX-sq4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Vyd-fv-y0d"/>
+                <constraint firstItem="7rF-II-3Ls" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YGa-Hh-SQN"/>
+                <constraint firstItem="OVI-WX-sq4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="apU-43-AmR"/>
+                <constraint firstAttribute="bottom" secondItem="7rF-II-3Ls" secondAttribute="bottom" id="bhw-UC-WCB"/>
+                <constraint firstAttribute="trailing" secondItem="OVI-WX-sq4" secondAttribute="trailing" id="vLd-9d-a85"/>
+            </constraints>
+            <point key="canvasLocation" x="-72" y="30"/>
+        </view>
+    </objects>
+</document>

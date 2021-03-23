@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dubai-Bold.ttf">
+            <string>Dubai-Bold</string>
+        </array>
+        <array key="Dubai-Regular.ttf">
+            <string>Dubai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="168" id="PIE-ZR-YrH" customClass="FilterSlider_Cell" customModule="Khaam" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PIE-ZR-YrH" id="LNI-v3-Tlj">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOa-JR-XWs">
+                        <rect key="frame" x="0.0" y="40" width="320" height="120"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ldl-dI-GAC">
+                                <rect key="frame" x="0.0" y="119" width="320" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="aUa-kZ-17c"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KfP-kJ-7NP" customClass="RangeSlider" customModule="SwiftRangeSlider">
+                                <rect key="frame" x="10" y="59" width="300" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.33333333329999998" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Whf-dV-lZT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="knobSize">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="knobTintColor">
+                                        <color key="value" red="0.92549019607843142" green="0.082352941176470587" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trackHeight">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="hideLabels" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbOutlineSize">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbSize">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackTintColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackHighlightTintColor">
+                                        <color key="value" red="0.92549019607843142" green="0.082352941176470587" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="rangeSliderValuesChanged:" destination="PIE-ZR-YrH" eventType="touchUpInside" id="4Fx-p4-7Au"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min Price" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djO-5M-FVh">
+                                <rect key="frame" x="10" y="5" width="71" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="71" id="pRB-rD-0tA"/>
+                                    <constraint firstAttribute="height" constant="21" id="son-g7-ZR0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dubai-Regular" family="Dubai" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jke-jM-RBn">
+                                <rect key="frame" x="10" y="31" width="71" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="71" id="MPW-Mz-uO7"/>
+                                    <constraint firstAttribute="height" constant="30" id="uP0-Kl-Upc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dubai-Bold" family="Dubai" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Price" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXO-z6-gT1">
+                                <rect key="frame" x="239" y="5" width="71" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="71" id="aqs-go-mA2"/>
+                                    <constraint firstAttribute="height" constant="21" id="uFr-l2-dJG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dubai-Regular" family="Dubai" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bw0-z8-Z7t">
+                                <rect key="frame" x="239" y="31" width="71" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NjR-J0-N83"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="71" id="TTf-lL-UlE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dubai-Bold" family="Dubai" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Bw0-z8-Z7t" secondAttribute="trailing" constant="10" id="7b3-jl-WYx"/>
+                            <constraint firstItem="Jke-jM-RBn" firstAttribute="leading" secondItem="SOa-JR-XWs" secondAttribute="leading" constant="10" id="EgH-so-dLe"/>
+                            <constraint firstAttribute="trailing" secondItem="Ldl-dI-GAC" secondAttribute="trailing" id="F96-CQ-QtO"/>
+                            <constraint firstAttribute="bottom" secondItem="Ldl-dI-GAC" secondAttribute="bottom" id="IEb-Ka-E5W"/>
+                            <constraint firstItem="CXO-z6-gT1" firstAttribute="top" secondItem="SOa-JR-XWs" secondAttribute="top" constant="5" id="KHE-UP-QHp"/>
+                            <constraint firstItem="KfP-kJ-7NP" firstAttribute="leading" secondItem="SOa-JR-XWs" secondAttribute="leading" constant="10" id="Lsv-zy-hOw"/>
+                            <constraint firstItem="djO-5M-FVh" firstAttribute="leading" secondItem="SOa-JR-XWs" secondAttribute="leading" constant="10" id="Mx1-8Q-Uha"/>
+                            <constraint firstItem="Ldl-dI-GAC" firstAttribute="leading" secondItem="SOa-JR-XWs" secondAttribute="leading" id="Pp6-Re-HXR"/>
+                            <constraint firstItem="Bw0-z8-Z7t" firstAttribute="top" secondItem="CXO-z6-gT1" secondAttribute="bottom" constant="5" id="WmY-23-hvW"/>
+                            <constraint firstItem="Ldl-dI-GAC" firstAttribute="top" secondItem="KfP-kJ-7NP" secondAttribute="bottom" id="Yt6-qZ-jID"/>
+                            <constraint firstAttribute="height" constant="120" id="dzo-BH-36m"/>
+                            <constraint firstAttribute="trailing" secondItem="KfP-kJ-7NP" secondAttribute="trailing" constant="10" id="eIq-Ty-V6a"/>
+                            <constraint firstItem="Jke-jM-RBn" firstAttribute="top" secondItem="djO-5M-FVh" secondAttribute="bottom" constant="5" id="i6c-Ya-cpI"/>
+                            <constraint firstItem="djO-5M-FVh" firstAttribute="top" secondItem="SOa-JR-XWs" secondAttribute="top" constant="5" id="pIt-WU-PKY"/>
+                            <constraint firstAttribute="trailing" secondItem="CXO-z6-gT1" secondAttribute="trailing" constant="10" id="srt-y8-fvp"/>
+                            <constraint firstItem="KfP-kJ-7NP" firstAttribute="centerX" secondItem="SOa-JR-XWs" secondAttribute="centerX" id="yLR-Hc-Ly5"/>
+                            <constraint firstItem="KfP-kJ-7NP" firstAttribute="centerX" secondItem="SOa-JR-XWs" secondAttribute="centerX" id="zev-do-lyE"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWx-tm-hte">
+                        <rect key="frame" x="10" y="10" width="300" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="LvZ-fq-9qU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Dubai-Regular" family="Dubai" pointSize="15"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hWx-tm-hte" firstAttribute="leading" secondItem="LNI-v3-Tlj" secondAttribute="leading" constant="10" id="5tV-DU-qAW"/>
+                    <constraint firstItem="SOa-JR-XWs" firstAttribute="centerX" secondItem="LNI-v3-Tlj" secondAttribute="centerX" id="NDZ-hK-Mo9"/>
+                    <constraint firstAttribute="bottom" secondItem="SOa-JR-XWs" secondAttribute="bottom" constant="8" id="c6r-zM-s2h"/>
+                    <constraint firstItem="SOa-JR-XWs" firstAttribute="width" secondItem="LNI-v3-Tlj" secondAttribute="width" id="gq8-wN-uV4"/>
+                    <constraint firstItem="SOa-JR-XWs" firstAttribute="top" secondItem="LNI-v3-Tlj" secondAttribute="top" constant="40" id="nat-wX-chY"/>
+                    <constraint firstAttribute="trailing" secondItem="hWx-tm-hte" secondAttribute="trailing" constant="10" id="vrg-VL-bzZ"/>
+                    <constraint firstItem="hWx-tm-hte" firstAttribute="top" secondItem="LNI-v3-Tlj" secondAttribute="top" constant="10" id="yL8-VM-ffb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="yEv-DN-kY5"/>
+            <connections>
+                <outlet property="RangeSliderCurrency" destination="KfP-kJ-7NP" id="VO7-eD-HA4"/>
+                <outlet property="lblMaxPrice" destination="Bw0-z8-Z7t" id="D1I-CY-c7f"/>
+                <outlet property="lblMaxPriceTop" destination="CXO-z6-gT1" id="6u5-1A-1ym"/>
+                <outlet property="lblMinPrice" destination="Jke-jM-RBn" id="RSq-iL-8rY"/>
+                <outlet property="lblMinPriceTop" destination="djO-5M-FVh" id="hW1-1g-Aqe"/>
+                <outlet property="lblTitle" destination="hWx-tm-hte" id="xn1-An-1dG"/>
+            </connections>
+            <point key="canvasLocation" x="50" y="157"/>
+        </tableViewCell>
+    </objects>
+</document>

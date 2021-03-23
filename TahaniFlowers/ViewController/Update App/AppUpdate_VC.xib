@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dubai-Bold.ttf">
+            <string>Dubai-Bold</string>
+        </array>
+        <array key="Dubai-Regular.ttf">
+            <string>Dubai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppUpdate_VC" customModule="Khaam" customModuleProvider="target">
+            <connections>
+                <outlet property="btnUpdate" destination="IPH-CA-gEp" id="Lfy-ZF-9an"/>
+                <outlet property="imgicon" destination="dHu-Qk-RsP" id="l7q-wZ-h8A"/>
+                <outlet property="lblDetail" destination="1T4-nx-aIp" id="rWR-XF-D9e"/>
+                <outlet property="lblTitle" destination="fGZ-ar-jkW" id="Ikt-iS-u5Q"/>
+                <outlet property="view" destination="6Kg-RS-OBI" id="xkB-dt-MxW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6Kg-RS-OBI">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.44999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CvM-vs-ngO">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTI-Oc-dX0">
+                    <rect key="frame" x="0.0" y="-1" width="414" height="897"/>
+                </button>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLG-re-s8Q">
+                    <rect key="frame" x="20.5" y="281" width="373" height="334"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dHu-Qk-RsP">
+                            <rect key="frame" x="146.5" y="19" width="80" height="81"/>
+                            <color key="tintColor" red="0.92549019610000005" green="0.08235294118" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="l9I-Y9-gpk"/>
+                                <constraint firstAttribute="width" constant="80" id="quo-YV-RSt"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGZ-ar-jkW">
+                            <rect key="frame" x="15" y="130" width="343" height="41"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="OzU-rI-FJL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Dubai-Bold" family="Dubai" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A new version of Khaam Application is available,Please update to version" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T4-nx-aIp">
+                            <rect key="frame" x="15" y="181" width="343" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25.5" id="5YT-9z-3xr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPH-CA-gEp">
+                            <rect key="frame" x="20" y="259" width="333" height="45"/>
+                            <color key="backgroundColor" red="0.92549019610000005" green="0.08235294118" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="UQg-3M-uHE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Dubai-Regular" family="Dubai" pointSize="17"/>
+                            <state key="normal" title="  Order Sample">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="onClickbtnUpdate:" destination="-1" eventType="touchUpInside" id="IJr-SD-AvT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="fGZ-ar-jkW" secondAttribute="trailing" constant="15" id="5Sk-VQ-WSt"/>
+                        <constraint firstAttribute="bottom" secondItem="IPH-CA-gEp" secondAttribute="bottom" constant="30" id="7SH-IB-elE"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="627" id="9Dr-pN-oiD"/>
+                        <constraint firstAttribute="trailing" secondItem="1T4-nx-aIp" secondAttribute="trailing" constant="15" id="NfM-vV-P0v"/>
+                        <constraint firstAttribute="trailing" secondItem="IPH-CA-gEp" secondAttribute="trailing" constant="20" id="ONz-fc-j9D"/>
+                        <constraint firstItem="IPH-CA-gEp" firstAttribute="top" secondItem="1T4-nx-aIp" secondAttribute="bottom" constant="30" id="ZdE-dG-0Vf"/>
+                        <constraint firstItem="1T4-nx-aIp" firstAttribute="leading" secondItem="fLG-re-s8Q" secondAttribute="leading" constant="15" id="aKs-nH-rV2"/>
+                        <constraint firstItem="fGZ-ar-jkW" firstAttribute="leading" secondItem="fLG-re-s8Q" secondAttribute="leading" constant="15" id="aZx-eU-kog"/>
+                        <constraint firstItem="1T4-nx-aIp" firstAttribute="top" secondItem="fGZ-ar-jkW" secondAttribute="bottom" constant="10" id="bAF-Z7-Z1W"/>
+                        <constraint firstItem="fGZ-ar-jkW" firstAttribute="top" secondItem="dHu-Qk-RsP" secondAttribute="bottom" constant="30" id="jbk-Rg-Hou"/>
+                        <constraint firstItem="dHu-Qk-RsP" firstAttribute="centerX" secondItem="fLG-re-s8Q" secondAttribute="centerX" id="mXO-Uu-K94"/>
+                        <constraint firstItem="dHu-Qk-RsP" firstAttribute="top" secondItem="fLG-re-s8Q" secondAttribute="top" constant="20" id="ms1-SK-4Zc"/>
+                        <constraint firstItem="IPH-CA-gEp" firstAttribute="leading" secondItem="fLG-re-s8Q" secondAttribute="leading" constant="20" id="nFN-NG-6we"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="tap_cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="CvM-vs-ngO" firstAttribute="top" secondItem="6Kg-RS-OBI" secondAttribute="top" id="2z0-eZ-JYU"/>
+                <constraint firstAttribute="bottom" secondItem="CvM-vs-ngO" secondAttribute="bottom" id="7uG-Cn-ReP"/>
+                <constraint firstItem="fLG-re-s8Q" firstAttribute="centerX" secondItem="6Kg-RS-OBI" secondAttribute="centerX" id="A3V-eP-gty"/>
+                <constraint firstItem="fLG-re-s8Q" firstAttribute="centerY" secondItem="6Kg-RS-OBI" secondAttribute="centerY" id="DZL-te-t7i"/>
+                <constraint firstItem="tTI-Oc-dX0" firstAttribute="leading" secondItem="6Kg-RS-OBI" secondAttribute="leading" id="GEg-4F-EmL"/>
+                <constraint firstAttribute="trailing" secondItem="CvM-vs-ngO" secondAttribute="trailing" id="Ohe-Kk-NYF"/>
+                <constraint firstAttribute="trailing" secondItem="tTI-Oc-dX0" secondAttribute="trailing" id="RC5-bK-ifk"/>
+                <constraint firstItem="CvM-vs-ngO" firstAttribute="leading" secondItem="6Kg-RS-OBI" secondAttribute="leading" id="Xw4-2l-dmd"/>
+                <constraint firstItem="tTI-Oc-dX0" firstAttribute="top" secondItem="6Kg-RS-OBI" secondAttribute="top" constant="-1" id="brM-K6-P6e"/>
+                <constraint firstAttribute="bottom" secondItem="tTI-Oc-dX0" secondAttribute="bottom" id="m9S-Vf-cZV"/>
+                <constraint firstItem="fLG-re-s8Q" firstAttribute="width" secondItem="6Kg-RS-OBI" secondAttribute="width" multiplier="0.9" id="udG-GJ-cA0"/>
+            </constraints>
+            <point key="canvasLocation" x="397.10144927536237" y="52.232142857142854"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="square.and.arrow.up.fill" catalog="system" width="56" height="64"/>
+    </resources>
+</document>

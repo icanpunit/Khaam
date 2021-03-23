@@ -1,0 +1,6 @@
+framework module TapEditableView {
+  umbrella header "TapEditableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

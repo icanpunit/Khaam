@@ -1,0 +1,6 @@
+framework module TapSearchView {
+  umbrella header "TapSearchView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1034180763254-6pasojgmjanqpn4t35m2egi7v7slpubr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1034180763254-6pasojgmjanqpn4t35m2egi7v7slpubr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1034180763254-3gr04mo21g793lqsjrref32ctha9nibh.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCy1C6WZ5tqH0mI7sYNFi8m6VX_6xP9Oz0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1034180763254</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.khaamApp.AppleStore</string>
+	<key>PROJECT_ID</key>
+	<string>khaam-48cf2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>khaam-48cf2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1034180763254:ios:1d64a2c2d7c70312cb8957</string>
+	<key>DATABASE_URL</key>
+	<string>https://khaam-48cf2.firebaseio.com</string>
+</dict>
+</plist>

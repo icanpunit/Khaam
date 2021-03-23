@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "0uc-50-Ien"; */
+"0uc-50-Ien.normalTitle" = "LOGIN";
+
+/* Class = "UIButton"; normalTitle = "  Login With Facebook"; ObjectID = "3kF-40-dS8"; */
+"3kF-40-dS8.normalTitle" = "  Login With Facebook";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "UkY-Zm-qpd"; */
+"UkY-Zm-qpd.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "  Login With Google"; ObjectID = "VIG-FE-beY"; */
+"VIG-FE-beY.normalTitle" = "  Login With Google";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "Z8W-t6-L0s"; */
+"Z8W-t6-L0s.normalTitle" = "Forgot Password?";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "kjB-tX-MJw"; */
+"kjB-tX-MJw.placeholder" = "User Name";
+
+/* Class = "UIButton"; normalTitle = "Do not have Account? Sign up"; ObjectID = "yjM-lj-meN"; */
+"yjM-lj-meN.normalTitle" = "Do not have Account? Sign up";

@@ -1,0 +1,6 @@
+framework module TapResponderChainInputView {
+  umbrella header "TapResponderChainInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TapApplication {
+  umbrella header "TapApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}

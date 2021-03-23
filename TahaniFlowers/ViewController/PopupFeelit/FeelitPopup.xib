@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dubai-Regular.ttf">
+            <string>Dubai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FeelitPopup" customModule="Khaam" customModuleProvider="target">
+            <connections>
+                <outlet property="btnok" destination="dy7-xH-eV7" id="mTh-aM-5R0"/>
+                <outlet property="imgCenter" destination="BDH-Gc-vk7" id="1uF-S3-tIF"/>
+                <outlet property="view" destination="aSN-zn-o8Y" id="EeJ-OU-pre"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aSN-zn-o8Y">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.44999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4M-ou-BNJ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22n-Xr-EXL">
+                    <rect key="frame" x="0.0" y="-1" width="414" height="897"/>
+                    <connections>
+                        <action selector="OnclickClose:" destination="-1" eventType="touchUpInside" id="R2i-NT-2Pn"/>
+                    </connections>
+                </button>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cu-SW-dCP">
+                    <rect key="frame" x="20.5" y="134.5" width="373" height="627"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dy7-xH-eV7">
+                            <rect key="frame" x="0.0" y="582" width="373" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Cae-tq-M3Z"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Dubai-Regular" family="Dubai" pointSize="17"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="OnclickClose:" destination="-1" eventType="touchUpInside" id="jmo-LI-xLy"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Demo" translatesAutoresizingMaskIntoConstraints="NO" id="BDH-Gc-vk7">
+                            <rect key="frame" x="0.0" y="0.0" width="373" height="582"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="BDH-Gc-vk7" firstAttribute="leading" secondItem="0cu-SW-dCP" secondAttribute="leading" id="AU8-9y-VIF"/>
+                        <constraint firstAttribute="bottom" secondItem="dy7-xH-eV7" secondAttribute="bottom" id="EZH-PN-roz"/>
+                        <constraint firstItem="dy7-xH-eV7" firstAttribute="leading" secondItem="0cu-SW-dCP" secondAttribute="leading" id="Hex-fC-DLf"/>
+                        <constraint firstAttribute="trailing" secondItem="BDH-Gc-vk7" secondAttribute="trailing" id="JFM-pF-En4"/>
+                        <constraint firstAttribute="trailing" secondItem="dy7-xH-eV7" secondAttribute="trailing" id="a6B-Nz-xlq"/>
+                        <constraint firstItem="BDH-Gc-vk7" firstAttribute="top" secondItem="0cu-SW-dCP" secondAttribute="top" id="mAH-cg-zDc"/>
+                        <constraint firstItem="dy7-xH-eV7" firstAttribute="top" secondItem="BDH-Gc-vk7" secondAttribute="bottom" id="nWf-Yu-3Rb"/>
+                        <constraint firstItem="dy7-xH-eV7" firstAttribute="top" secondItem="BDH-Gc-vk7" secondAttribute="bottom" id="qdC-Z6-Wdh"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="tap_cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="0cu-SW-dCP" firstAttribute="centerY" secondItem="aSN-zn-o8Y" secondAttribute="centerY" id="7xT-SY-kbF"/>
+                <constraint firstAttribute="trailing" secondItem="A4M-ou-BNJ" secondAttribute="trailing" id="K01-Y4-noJ"/>
+                <constraint firstAttribute="bottom" secondItem="A4M-ou-BNJ" secondAttribute="bottom" id="K34-28-QHd"/>
+                <constraint firstAttribute="trailing" secondItem="22n-Xr-EXL" secondAttribute="trailing" id="R31-j5-K3C"/>
+                <constraint firstItem="0cu-SW-dCP" firstAttribute="width" secondItem="aSN-zn-o8Y" secondAttribute="width" multiplier="0.9" id="TPX-ph-1Ez"/>
+                <constraint firstItem="22n-Xr-EXL" firstAttribute="leading" secondItem="aSN-zn-o8Y" secondAttribute="leading" id="VWr-JJ-v9f"/>
+                <constraint firstAttribute="bottom" secondItem="22n-Xr-EXL" secondAttribute="bottom" id="Vqc-0K-4az"/>
+                <constraint firstItem="A4M-ou-BNJ" firstAttribute="leading" secondItem="aSN-zn-o8Y" secondAttribute="leading" id="XVB-zT-qB1"/>
+                <constraint firstItem="22n-Xr-EXL" firstAttribute="top" secondItem="aSN-zn-o8Y" secondAttribute="top" constant="-1" id="YTd-3I-qW6"/>
+                <constraint firstItem="A4M-ou-BNJ" firstAttribute="top" secondItem="aSN-zn-o8Y" secondAttribute="top" id="jcG-Qk-rfO"/>
+                <constraint firstItem="0cu-SW-dCP" firstAttribute="centerX" secondItem="aSN-zn-o8Y" secondAttribute="centerX" id="l6B-Z6-TwK"/>
+                <constraint firstItem="0cu-SW-dCP" firstAttribute="height" secondItem="aSN-zn-o8Y" secondAttribute="height" multiplier="0.7" id="uts-eC-R7e"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="RfM-CD-ZEh"/>
+            <point key="canvasLocation" x="397.10144927536237" y="52.232142857142854"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Demo" width="3585" height="5378"/>
+    </resources>
+</document>

@@ -1,0 +1,362 @@
+/*
+ Localizable.strings
+ TahaniFlowers
+ 
+ Created by Mandip Kanjiya on 13/12/18.
+ Copyright © 2018 Mandip Kanjiya. All rights reserved.
+ */
+
+required = "مطلوب";
+arabic = "عربى";
+
+// Menu
+
+menu_home = "الرئيسية";
+menu_category = "الاقسام";
+menu_about_us = "معلومات عنا";
+menu_contact_us = "تواصل معنا";
+menu_my_account = "حسابى";
+menu_my_orders = "طلباتى";
+menu_my_address = "عنوانى";
+menu_reset_password = "إعادة ضبط كلمة المرور";
+menu_login = "تسجيل الدخول";
+menu_logout = "تسجيل الخروج";
+menu_do_you_want_to_logout = "هل ترغب بالخروج؟";
+menu_yes = "نعم";
+menu_no = "لا";
+menu_logout_successfully = "تسجيل الخروج بنجاح";
+menu_account = "الحساب";
+// Login Screen
+
+placeholder_login_username = "اسم المستخدم";
+placeholder_login_password = "كلمه السر";
+
+login_title = "تسجيل الدخول";
+login_forgot_password = "تسجيل الخروج";
+login = "تسجيل الدخول";
+login_do_not_have_account = "لا يوجد لديك حساب؟ تسجيل حساب جديد";
+login_with_facebook = "دخول عن طريق فيسبوك";
+login_with_google = "دخول عن طريق جوجل";
+
+login_username_required = "اسم المستخدم مطلوب!";
+login_password_required = "كلمة السر مطلوبة!";
+login_valid_email = "البريد الإلكتروني غير صالح!";
+
+login_login_successfully = "تسجيل الدخول بنجاح";
+
+// Sign up
+
+placeholder_signup_username = "الاسم الاول";
+placeholder_signup_lastname = "اسم العائلة";
+placeholder_signup_password = "كلمة المرور";
+placeholder_signup_confirmpassword = "تأكيد كلمة المرور";
+placeholder_signup_emailid = "الإيميل";
+placeholder_signup_contact_number = "رقم الاتصال";
+
+signup_title = "سجل";
+signup = "سجل";
+signup_already_have_account = "هل لديك حساب؟ تسجيل الدخول";
+signup_with_facebook = "  تسجيل عن طريق فيسبوك";
+signup_with_google = "  تسجيل عن طريق جوجل";
+
+signup_username_required = "الاسم الأول مطلوب!";
+signup_lastname_required = "الاسم العائلة مطلوب!";
+signup_password_required = "الاسم العائلة مطلوب!";
+signup_confirm_password_required = "كلمة السر مطلوبة!";
+signup_password_and_confrimpassword_not_matched = "كلمة السر وتأكيد كلمة السر غير متطابقة!";
+signup_email_required = "الإيميل مطلوب!";
+signup_contact_required = "رقم الاتصال مطلوب!";
+signup_valid_email = "الإيميل غير صالح مطلوب!";
+signup_password_min_length = "Allowed Minimum 6 Characters";
+signup_password_max_length = "Allowed Maximun 8 Characters";
+signup_max_two_zero_characters_allowed = "Allowed Max 20 Characters Only";
+signup_max_one_zero_characters_allowed = "Allowed Max 10 Characters Only";
+signup_enter_valid_mobile_number_allowed = "Enter valid mobile number";
+signup_max_one_zero_zero_characters_allowed = "Allowed Max 100 Character Only";
+register_successfully = "Register Successfully";
+signup_only_digits_allowed = "Only digits allowed";
+
+// Forgot Password
+
+
+placeholder_forgot_password_emailid = "الإيميل مطلوب!";
+
+forgot_password_title = "هل نسيت كلمة السر؟";
+forgot_password_send_instructions = "SEND INSTRUCTIONS ar";
+
+forgot_password_email_required = "الإيميل مطلوب!";
+forgot_password_valid_email = "الإيميل غير صالح مطلوب!";
+
+// Reset Password
+
+placehoder_reset_password_current_password = "كلمة السر الحالية";
+placehoder_reset_password_new_password = "كلمة السر الجديدة";
+
+reset_password_title = "إعادة ضبط كلمة السر";
+reset_password_btn_name = "إعادة ضبط كلمة السر";
+
+reset_password_current_password_required = "كلمة السر الحالية مطلوبة!";
+reset_password_new_password_required = "كلمة السر الجديدة مطلوبة!";
+
+// Home
+
+lbl_home_title = "تهانى فلاورز";
+home_view_more = "عرض المزيد";
+home_shop_by_category = "تسوق حسب الاقسام";
+home_featured_products = "منتجات مميزة";
+home_search_flowers = "  بحث";
+home_no_data_found = "نأسف..!! لم يتم العثور على أي شيء";
+home_back_to_shop = "الرجوع الى التسوق";
+
+// Tabbar
+
+tab_home = "الرئيسية";
+tab_offers = "عروض";
+tab_profile = "الملف الشخصي";
+tab_cart = "سلة المشتريات";
+
+// Product Details
+
+product_details_related_products = "منتجات ذات صله";
+product_details_review = "إعادة النظر";
+product_details_was_added_to_your_shopping_cart = "تم إضافتها إلى سلة المشتريات الخاصة بك.";
+product_details_added_to_cart = "Added To Cart ar";
+product_details_ok = "موافقة";
+product_details_add_to_cart = "أضف إلى سلة المشتريات";
+product_details_rate_this_product = "قيم هذا المنتج";
+
+// Orders
+
+orders_title = "طلبات";
+orders_delivered = "تم التوصيل";
+orders_canceled = "الغاء";
+orders_order_again = "طلب مرة اخرى";
+orders_order_Cancel = "CANCEL ORDER";
+orders_order_id = "رقم التعريف الخاص بالطلب :";
+orders_order_price = "السعر :";
+orders_placed_on = "Placed on ar";
+
+// Address
+
+address_title = "العنوان ";
+address_edit = "تعديل";
+address_add_address = "اضافة عنوان";
+address_no_address_found = "لم يتم العثور على عنوان";
+new_address_placeholder_select_governorate = "Select Governorate";
+specialInstruction_placeholder = "For Ex. don’t ring bell, or please come back door";
+// Write Review
+
+write_review_title = "التقييم والاستعراض";
+write_review_add_rating = "إضافة التقييم";
+write_review_write_review = "أكتب مراجعة";
+write_review_submit = "قدم";
+
+// Cart
+
+cart_title = "عربة التسوق";
+cart_sub_total = "الإجمالى";
+cart_discount = "خصم";
+cart_delivery = "توصيل";
+cart_total = "الإجمالى";
+cart_checkout = "الدفع";
+cart_choose_method = "اختر طريقة";
+cart_login = "تسجيل الدخول";
+cart_checkout_as_guest = "CHECKOUT AS GUEST ar";
+cart_register_and_checkout = "التسجيل والدفع ";
+cart_updated_successfully = "سلة المشتريات محدثة بنجاح";
+cart_quantity = "كمية";
+cart_delete_message = "هل تريد الحذف من سلة المشتريات ؟";
+cart_your_cart_is_empty = "Your cart is empty";
+
+// Checkout
+
+checkout_name_required = "الاسم مطلوب";
+checkout_mobile_no_required = "يرجى ادخال رقم الموبايل ";
+checkout_alertnate_no_required = "يرجى ادخال الرقم البديل";
+checkout_select_area_required = "يرجى ادخال رقم المنطقة";
+checkout_block_required = "يرجى ادخال رقم القطعة ";
+checkout_street_required = "يرجى ادخال اسم او رقم الشارع ";
+checkout_avenue_required = "يرجى ادخال رقم الجادة";
+checkout_house_required = "يرجى ادخال رقم المنزل ";
+checkout_floor_required = "يرجى ادخال رقم الدور";
+checkout_bulding_no_required = "يرجى ادخال رقم البناية";
+checkout_no_delivery_time_available = "نأسف هذا الوقت غير متاح للتوصيل";
+checkout_please_select_delivery_date_to_view_delivery_timeslots = "يرجى اختيار تاريخ التوصيل لعرض فترات التوصيل";
+
+checkout_placeholder_name = "الاسم";
+checkout_placeholder_mobile_no = "رقم الموبايل";
+checkout_placeholder_alertnate_no = "الرقم البديل";
+checkout_placeholder_select_area = "اختر المنطقة";
+checkout_placeholder_block = "قطعة";
+checkout_placeholder_street = "شارع";
+checkout_placeholder_avenue = "جادة";
+checkout_placeholder_house = "منزل";
+checkout_placeholder_floor = "دور";
+checkout_placeholder_bulding_no = "رقم البناية";
+checkout_save_address_for_future_use = "حفظ العنوان للاستخدام المستقبلي.";
+checkout_next = "التالى";
+checkout_delivery_options = "اختيارات التوصيل";
+checkout_submit = "موافق";
+checkout_delivery_date = "تاريخ التوصيل";
+checkout_delivery_time = "ميعاد التوصيل";
+checkout_choose_delivery_options = "اختر طريقة الاستلام";
+checkout_choose_another_option = "اختر خيار آخر";
+
+// Profile
+
+profile_title = "الملف الشخصي";
+profile_email = "البريد الإلكتروني";
+profile_bio = "السيرة الذاتية:";
+profile_contact = "اتصل:";
+
+// Edit Profile
+
+edit_profile_title = "تعديل الملف الشخصي";
+edit_profile_change_image = "تغيير الصورة";
+edit_profile_user_name = "اسم المستخدم";
+edit_profile_email_id = "الايميل";
+edit_profile_contact = "تواصل";
+edit_profile_about = "السيرة الذاتية";
+edit_profile_save = "حفظ";
+edit_profile_first_name_placeholder = "الاسم الاول";
+edit_profile_last_name_placeholder = "اسم العائلة";
+edit_profile_email_id_placeholder = "البريد الالكترونى";
+edit_profile_contact_placeholder = "تواصل";
+edit_profile_save_placeholder = "حفظ";
+
+// Contact Us
+
+contact_us = "تواصل معنا";
+get_in_touch = "ابقى على تواصل";
+send_us_message = "ارسل لنا رسالة";
+contact_us_name_required = "يرجى ادخال الاسم";
+contact_us_emailid_required = "يرجى ادخال البريد الالكترونى";
+contact_us_number_required = "يرجى ادخال الرقم";
+contact_us_message_required = "Message required ar";
+contact_us_for_support_and_order_inquires = "Support & Inquiry";
+contact_us_for_complains = "Complains";
+contact_us_for_order_tracking_and_delivery = "Tracking & Delivery";
+contact_us_for_whatsApp = "WhatsApp";
+contact_us_name_placeholder = "Name";
+contact_us_email_address_placeholder = "Email Address";
+contact_us_contact_number_placeholder = "Contact Number";
+contact_us_message_placeholder = "Message";
+contact_us_send = "SEND";
+contact_us_conatct_number = "Contact Number";
+contact_us_location = "Location";
+
+// About Us
+
+about_us = "معلومات عنا";
+
+// Select Language
+
+select_language_title = "اختر اللغة";
+select_language_choose_language = "اختر اللغة";
+select_language_apply = "Apply";
+
+// New Address
+
+new_address_title = "عنوان جديد";
+edit_address_title = "تعديل العنوان";
+
+new_address_name_required = "يرجى ادخال الاسم";
+new_address_mobile_no_required = "يرجى ادخال رقم الموبايل ";
+new_address_alertnate_no_required = "يرجى ادخال الرقم البديل";
+new_address_select_area_required = "اختر المنطقة";
+new_address_block_required = "يرجى ادخل رقم القطعة";
+new_address_street_required = "يرجى ادخال رقم او اسم الشارع";
+new_address_avenue_required = "يرجى ادخل رقم الجادة";
+new_address_house_required = "يرجى ادخال رقم المنزل ";
+new_address_floor_required = "يرجى ادخال رقم الدور";
+new_address_bulding_no_required = "يرجى ادخال رقم البناية";
+new_address_address_required = "يرجى ادخال العنوان";
+
+
+new_address_placeholder_name = "الاسم";
+new_address_placeholder_mobile_no = "رقم الموبايل";
+new_address_placeholder_alertnate_no = "رقم الموبايل البديل";
+new_address_placeholder_select_area = "اختر المنطقة";
+new_address_placeholder_block = "قطعة";
+new_address_placeholder_street = "الشارع";
+new_address_placeholder_avenue = "جادة";
+new_address_placeholder_house = "المنزل";
+new_address_placeholder_floor = "الدور";
+new_address_placeholder_bulding_no = "رقم البناية";
+new_address_placeholder_address = "العنوان ";
+
+new_address_save_address_for_future_use = "حفظ العنوان للاستخدام المستقبلي.";
+new_address_next = "حفظ";
+
+// Step 1
+
+step_one_title = "1 الخطوة";
+step_one_shipping_address = "Shipping Address ar";
+step_one_saved_address = "العنواين المحفوظة مسبقا";
+step_one_add_address = "+ اضافة عنوان";
+step_one_billing_address = "العنوان ";
+step_one_next = "التالى";
+step_one_select_address = "يرجى اختيار العنوان";
+
+checkout_title = "Place Order ar";
+checkout_coupon_code_required = "يرجى ادخال رقم الكوبون";
+checkout_coupon_code_placeholder = "رقم الكوبون";
+checkout_coupon_code_apply = "تأكيد";
+checkout_coupon_code_pay = "دفع";
+checkout_coupon_code_cancel = "الغاء";
+checkout_quantity = "الكمية";
+checkout_price = "السعر :";
+checkout_subtotal = "الاجمالى ";
+checkout_address = "العنوان ";
+checkout_payment_method = "طريقة الدفع";
+checkout_order_id = "رقم الطلب ";
+checkout_sub_total = "الاجمالى ";
+checkout_discount = "خصم";
+checkout_delivery = "توصيل";
+checkout_total = "الاجمالى ";
+
+// Step 2
+
+step_two_title = "2 الخطوة";
+step_two_date_and_time = "التاريخ والوقت";
+step_two_next = "التالى";
+step_two_select_date = "اختر التاريخ";
+step_two_select_time = "اختر الوقت";
+step_two_make_online_payment = "الدفع اون لاين";
+step_two_make_cash_on_delivey = "الدفع كاش عن الاستلام";
+step_two_select_payment_method = "اختار طريقة الدفع";
+step_one_no_address_found = "لم يتم العثور على عنوان";
+step_two_pay = "دفع";
+step_two_confirm_order = "اعتمد الطلب";
+
+// Placed Order
+
+placed_order_title = "دفع";
+placed_order_congratulations = "تهانينا!";
+placed_order_order_message = "تم اضافة طلبك";
+placed_order_go_back = "مواصلة التسوق";
+placed_order_your_order_has_been_received = "تم استلام طلبك";
+placed_order_thank_you_for_your_purchase = "شكرا لك على الشراء!";
+placed_order_your_order_is = "رقم الطلب الخاص بك هو:";
+placed_order_instructions = "ستتلقى رسالة بريد إلكتروني لتأكيد الطلب تحتوي على تفاصيل طلبك    ";
+
+// Paymnet
+
+payment_title = "دفع";
+
+card_payment_failed_title = "عملية الدفع فشلت !";
+card_payment_your_payment_couldnt_be_precessed = "Your Payment couldn't be processed. ar";
+card_payment_continue_shopping = "حاول مرة اخرى";
+
+checkout_please_select_delivery_options = "يرجى اختيار طريقة الاستلام";
+//Added By Punit
+
+btn_title_Shop = "تسوق";
+btn_title_ViewCart = "عرض سلة المشتريات";
+EnterValidEmail = "يرجى ادخال بريد الكترونى بطريقة صحيحة";
+Validation_MsgPasswordNotMatch = "كلمة السر غير متطابقة";
+PleaseSelectDelDate = "يرجى اختيار تاريخ التوصيل";
+PleaseSelectDelTime = "يرجى اختيار وقت التوصيل";
+//Oder
+
+are_sure_Cancel_Oder = "Are you sure you want to cancel this order ?";

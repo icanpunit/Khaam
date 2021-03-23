@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dubai-Bold.ttf">
+            <string>Dubai-Bold</string>
+        </array>
+        <array key="Dubai-Regular.ttf">
+            <string>Dubai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyAppointmentListVC" customModule="Khaam" customModuleProvider="target">
+            <connections>
+                <outlet property="imgNoData" destination="zKY-Iu-QFt" id="yeg-pv-d0X"/>
+                <outlet property="lblNODataDetail" destination="scD-nb-Zj0" id="GuW-XE-385"/>
+                <outlet property="lblNoDataFound" destination="uRh-9v-EQW" id="EKl-jc-kRu"/>
+                <outlet property="tblMain" destination="gIM-ql-xCA" id="DNT-hk-WXt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewNoDataFound" destination="xql-Ky-ki3" id="MPL-9j-wej"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gIM-ql-xCA">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xql-Ky-ki3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Cart is Empty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRh-9v-EQW">
+                            <rect key="frame" x="56" y="272" width="208" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="208" id="ucM-oq-EgY"/>
+                                <constraint firstAttribute="height" constant="24" id="uzf-z6-8NT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Dubai-Bold" family="Dubai" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopping-cart (1)" translatesAutoresizingMaskIntoConstraints="NO" id="zKY-Iu-QFt">
+                            <rect key="frame" x="108.5" y="152" width="103" height="90"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="90" id="0gZ-qy-gnT"/>
+                                <constraint firstAttribute="width" constant="103" id="yRC-CB-Gqh"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scD-nb-Zj0">
+                            <rect key="frame" x="20" y="306" width="280" height="47.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="CLQ-Bk-k5a"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Dubai-Regular" family="Dubai" pointSize="14"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="uRh-9v-EQW" firstAttribute="centerY" secondItem="nkD-jt-0Zn" secondAttribute="centerY" id="13M-er-QQ0"/>
+                        <constraint firstItem="nkD-jt-0Zn" firstAttribute="trailing" secondItem="scD-nb-Zj0" secondAttribute="trailing" constant="20" id="36F-M1-5rg"/>
+                        <constraint firstItem="uRh-9v-EQW" firstAttribute="centerX" secondItem="nkD-jt-0Zn" secondAttribute="centerX" id="3Zd-cb-s9J"/>
+                        <constraint firstItem="uRh-9v-EQW" firstAttribute="top" secondItem="zKY-Iu-QFt" secondAttribute="bottom" constant="30" id="ELH-2b-4L8"/>
+                        <constraint firstItem="zKY-Iu-QFt" firstAttribute="centerX" secondItem="nkD-jt-0Zn" secondAttribute="centerX" id="Nfc-tw-9r1"/>
+                        <constraint firstItem="scD-nb-Zj0" firstAttribute="leading" secondItem="nkD-jt-0Zn" secondAttribute="leading" constant="20" id="VIc-b8-opN"/>
+                        <constraint firstItem="scD-nb-Zj0" firstAttribute="top" secondItem="uRh-9v-EQW" secondAttribute="bottom" constant="10" id="gdU-v2-Vcb"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="nkD-jt-0Zn"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gIM-ql-xCA" secondAttribute="bottom" id="5h4-Nn-EVF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gIM-ql-xCA" secondAttribute="trailing" id="AZK-D4-Uxp"/>
+                <constraint firstItem="gIM-ql-xCA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="NeV-6S-Eho"/>
+                <constraint firstItem="xql-Ky-ki3" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="foE-6S-Y39"/>
+                <constraint firstItem="xql-Ky-ki3" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="ocw-rT-z41"/>
+                <constraint firstItem="gIM-ql-xCA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="sw2-Fs-rrz"/>
+                <constraint firstItem="xql-Ky-ki3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tOQ-iv-qSv"/>
+                <constraint firstItem="xql-Ky-ki3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="vVe-kc-Wva"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="57" y="139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shopping-cart (1)" width="22.5" height="22.5"/>
+    </resources>
+</document>
